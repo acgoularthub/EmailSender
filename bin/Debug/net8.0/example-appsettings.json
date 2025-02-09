@@ -1,0 +1,17 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "EmailSettings": {
+    "SmtpServer": "smtp.example.com.br",
+    "Port": 587,
+    "Username": "apikey",
+    "Password": "XXXXXXXXXX",
+    "FromEmail": "seuemail@dominio.com"
+  }
+}
+
