@@ -77,7 +77,8 @@ namespace EmailValidationAPI.Services
 
         // Utiliza o MailKit para enviar o e-mail via SMTP
         using var smtpClient = new SmtpClient();
-        await smtpClient.ConnectAsync(_emailSettings.SmtpServer, _emailSettings.Port, SecureSocketOptions.StartTls);
+        // await smtpClient.ConnectAsync(_emailSettings.SmtpServer, _emailSettings.Port, SecureSocketOptions.StartTls);
+        await smtpClient.ConnectAsync(_emailSettings.SmtpServer, _emailSettings.Port, SecureSocketOptions.None);
         await smtpClient.AuthenticateAsync(_emailSettings.Username, _emailSettings.Password);
         await smtpClient.SendAsync(message);
         await smtpClient.DisconnectAsync(true);

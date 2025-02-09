@@ -1,2 +1,37 @@
+# Arquivos de configuração de ambiente
 appsettings.json
-EmailValidatorAPI
+appsettings.Development.json
+
+# Diretórios de build
+bin/
+obj/
+
+# Arquivos de log
+*.log
+
+# Arquivos de backup
+*.bak
+
+# Arquivos de configuração do Visual Studio
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos de pacotes NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Arquivos de cache
+*.cache
+*.temp
+
+# Arquivos de lock
+project.lock.json
+project.fragment.lock.json
+
+# Arquivos de configuração do Rider
+.idea/
+*.sln.iml
