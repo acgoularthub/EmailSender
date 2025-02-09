@@ -40,7 +40,7 @@ EmailValidatorAPI é uma API desenvolvida em ASP.NET Core que valida o formato d
       },
       "AllowedHosts": "*",
       "EmailSettings": {
-        "SmtpServer": "smtp.seuservidor.com",
+        "SmtpServer": "seuservidor",
         "Port": 587,
         "Username": "seu-usuario",
         "Password": "sua-senha",
